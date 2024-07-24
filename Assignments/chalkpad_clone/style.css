@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background: url(chitkara.png);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    margin-right: 10%;
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.remember input {
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #c21e56;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #a31a48;
+}
+
+.forgot {
+    display: block;
+    margin-top: 10px;
+    color: #c21e56;
+    text-decoration: none;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+.privacy-policy {
+    margin-top: 10px;
+}
+
+.privacy-policy a {
+    color: #c21e56;
+    text-decoration: none;
+}
+
+.privacy-policy a:hover {
+    text-decoration: underline;
+}
+
+.mobile-app {
+    margin-top: 0px;
+}
+
+.mobile-app p {
+    margin: 0;
+}
+
+.app-links img {
+    width: 20px;
+    margin: 5px;
+}
+
+.powered-by {
+    margin-top: 20px;
+}
+
+.powered-by p {
+    margin: 0;
+}
+
+.powered-by img {
+    width: 100px;
+}
