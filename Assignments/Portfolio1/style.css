@@ -1,0 +1,39 @@
+
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+    .navbar {
+      background-color: #0152a3;
+    }
+    .navbar-brand, .nav-link {
+      color: #ffffff !important;
+    }
+    #about {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+    }
+    #projects {
+      padding: 60px 0;
+    }
+    .card {
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .card-title {
+      font-weight: bold;
+      color: #343a40;
+    }
+    .card-text {
+      color: #6c757d;
+    }
+    #contact {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+    }
+    footer {
+      background-color: #0152a3;
+      color: #ffffff;
+      padding: 20px 0;
+      text-align: center;
+    }
