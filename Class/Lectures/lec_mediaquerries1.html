@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            border: 2px solid #ccc;
+            margin: 1px;
+            padding: 1rem;
+            text-align: justify;
+            font-size: 15px;
+        }
+
+        h1{
+            font-size: 40px;
+            text-align: center;
+        }
+
+        @media(max-width: 520px){
+            section{
+                text-transform: uppercase;
+                font-size: 12px;
+            }
+            h1{
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width: 420px){
+            h1{
+                font-size: 20px;
+            }
+            section{
+                font-size: 10px;
+            }
+        }
+        @media(max-width: 320px){
+            h1{
+                font-size:15px;
+            }
+            section{
+                font-size: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>This is a Media Query</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat hic ipsa consequatur ipsum, eveniet deserunt beatae. Quibusdam autem, dicta nulla fuga magnam ut minus ipsa pariatur inventore obcaecati rem vitae quis delectus, itaque iste omnis maxime eius perferendis, a reiciendis natus atque veritatis? In, ratione? Voluptatem amet iusto porro culpa?</p>
+    </section>
+</body>
+</html>
